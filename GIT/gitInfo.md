@@ -21,3 +21,12 @@ git add <directory>
 Создание новой ветки: git checkout -b Postman
 Переключение на существующую ветку: git checkout Postman
 Запушить ветку на уд сервер: git push -u origin Postman - -u (связать уд репозиторий и локальную ветку), origin (название уд репозитория)
+
+**Настройки Git:**
+1. *Установить имя пользователя и почту:*
+git config --global user.name "ZmokiLi"
+git config --global user.email "charliebloom25@gmail.com"
+2. Создать и добавить в github ssh ключ:
+ssh-keygen -t ed25519 -C "charliebloom25@gmail.com"
+Найти на компе публичный ключ, скопировать и вставить в github.
+
