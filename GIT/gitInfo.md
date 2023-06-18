@@ -41,3 +41,8 @@ git config --global user.email "charliebloom25@gmail.com"
 ssh-keygen -t ed25519 -C "charliebloom25@gmail.com"
 Найти на компе публичный ключ, скопировать и вставить в github.
 
+
+**Клонирование репозитория с внешнего на локальный:**
+С внешнего репозитория сказать ссылку. 
+На локальном:
+git clone https://github.com/ZmokiLi/Knowledge_base.git
